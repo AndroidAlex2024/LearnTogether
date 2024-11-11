@@ -56,8 +56,6 @@ fun Greeting(title: String, text1: String,text2: String, modifier: Modifier = Mo
             Image(
                 painter = image,
                 contentDescription = null,
-                //contentScale = ContentScale.Crop,
-                //alpha = 0.5F
             )
 
             Text(
@@ -65,13 +63,6 @@ fun Greeting(title: String, text1: String,text2: String, modifier: Modifier = Mo
                 fontSize = 24.sp,//размер в масштабируемых пикселях
                 modifier = modifier
                     .padding(16.dp)
-                //.padding(
-                    //    start = 16.dp,
-                    //    top = 16.dp,
-                    //    end = 16.dp,
-                    //     bottom = 16.dp)
-                //lineHeight = 116.sp,//размер строки если шрифт накладывается
-                //textAlign = TextAlign.Center
             )
             Text(
                 text = text1,
